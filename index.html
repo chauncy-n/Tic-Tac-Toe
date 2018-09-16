@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1> Tic-Tac-Toe</h1>
+    <p id="player">current player: X</p>
+    <div class="wrapper">
+        <div class="board-grid" id="tl" onclick="handleTurn('tl')">&nbsp;</div>
+        <div class="board-grid" id="tm" onclick="handleTurn('tm')">&nbsp;</div>
+        <div class="board-grid" id="tr" onclick="handleTurn('tr')">&nbsp;</div>
+        <div class="board-grid" id="ml" onclick="handleTurn('ml')">&nbsp;</div>
+        <div class="board-grid" id="m" onclick="handleTurn('m')">&nbsp;</div>
+        <div class="board-grid" id="mr" onclick="handleTurn('mr')">&nbsp;</div>
+        <div class="board-grid" id="bl" onclick="handleTurn('bl')">&nbsp;</div>
+        <div class="board-grid" id="bm" onclick="handleTurn('bm')">&nbsp;</div>
+        <div class="board-grid" id="br" onclick="handleTurn('br')">&nbsp;</div>
+    </div>
+    <footer> 
+        <button id="reset-btn" onclick="reset()">reset game</button>
+    </footer>
+    <script src="../tic-tak-toe/JS/main.js"></script>
+</body>
+</html>
